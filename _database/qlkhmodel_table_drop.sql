@@ -1,0 +1,5 @@
+DROP TABLE hanghoa CASCADE;
+DROP TABLE nhomhang CASCADE;
+DROP TABLE nhanvien CASCADE;
+DROP TABLE phieunhapkho CASCADE;
+DROP TABLE phieuxuatkho CASCADE;

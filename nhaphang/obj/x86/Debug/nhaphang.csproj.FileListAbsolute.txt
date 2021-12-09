@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\bin\Debug\nhaphang.exe
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\bin\Debug\nhaphang.pdb
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\obj\x86\Debug\nhaphang.Form1.resources
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\obj\x86\Debug\nhaphang.Properties.Resources.resources
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\obj\x86\Debug\nhaphang.Quanlyxuatkho.resources
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\obj\x86\Debug\nhaphang.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\obj\x86\Debug\nhaphang.exe
+C:\Users\Admin\Desktop\QLKHxml\nhaphang\obj\x86\Debug\nhaphang.pdb
