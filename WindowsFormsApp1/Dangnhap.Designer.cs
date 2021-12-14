@@ -48,7 +48,7 @@ namespace WindowsFormsApp1
             this.label1.Location = new System.Drawing.Point(125, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(178, 31);
+            this.label1.Size = new System.Drawing.Size(222, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "ĐĂNG NHẬP";
             // 
@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
             this.label2.Location = new System.Drawing.Point(34, 103);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 19);
+            this.label2.Size = new System.Drawing.Size(140, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên đăng nhập";
             // 
@@ -68,7 +68,7 @@ namespace WindowsFormsApp1
             this.label3.Location = new System.Drawing.Point(34, 165);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 19);
+            this.label3.Size = new System.Drawing.Size(95, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mật khẩu";
             // 
@@ -77,7 +77,7 @@ namespace WindowsFormsApp1
             this.txt_tendn.Location = new System.Drawing.Point(174, 98);
             this.txt_tendn.Margin = new System.Windows.Forms.Padding(4);
             this.txt_tendn.Name = "txt_tendn";
-            this.txt_tendn.Size = new System.Drawing.Size(232, 27);
+            this.txt_tendn.Size = new System.Drawing.Size(232, 32);
             this.txt_tendn.TabIndex = 3;
             // 
             // txt_matkhau
@@ -85,7 +85,7 @@ namespace WindowsFormsApp1
             this.txt_matkhau.Location = new System.Drawing.Point(174, 165);
             this.txt_matkhau.Margin = new System.Windows.Forms.Padding(4);
             this.txt_matkhau.Name = "txt_matkhau";
-            this.txt_matkhau.Size = new System.Drawing.Size(232, 27);
+            this.txt_matkhau.Size = new System.Drawing.Size(232, 32);
             this.txt_matkhau.TabIndex = 4;
             // 
             // button_dangnhap
@@ -93,14 +93,14 @@ namespace WindowsFormsApp1
             this.button_dangnhap.BackColor = System.Drawing.Color.Green;
             this.button_dangnhap.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_dangnhap.ForeColor = System.Drawing.Color.Transparent;
-            this.button_dangnhap.Location = new System.Drawing.Point(174, 231);
+            this.button_dangnhap.Location = new System.Drawing.Point(145, 230);
             this.button_dangnhap.Margin = new System.Windows.Forms.Padding(4);
             this.button_dangnhap.Name = "button_dangnhap";
-            this.button_dangnhap.Size = new System.Drawing.Size(129, 39);
+            this.button_dangnhap.Size = new System.Drawing.Size(173, 39);
             this.button_dangnhap.TabIndex = 5;
             this.button_dangnhap.Text = "Đăng nhập";
             this.button_dangnhap.UseVisualStyleBackColor = false;
-            this.button_dangnhap.Click += new System.EventHandler(this.button1_Click);
+            this.button_dangnhap.Click += new System.EventHandler(this.button_dangnhap_Click);
             // 
             // imageList1
             // 
@@ -110,7 +110,7 @@ namespace WindowsFormsApp1
             // 
             // Dangnhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(475, 307);

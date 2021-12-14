@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Nhomhang : Form
+    public partial class Nhanvien : Form
     {
-        public Nhomhang()
+        public Nhanvien()
         {
             InitializeComponent();
         }
 
-        private void themNhomhangbutton_Click(object sender, EventArgs e)
+        private void themNhanvienbutton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var f = new Themnhomhang();
+            var f = new Themnhanvien();
             f.Closed += (s, args) => this.Show();
             f.Show();
         }

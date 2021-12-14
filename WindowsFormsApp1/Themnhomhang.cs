@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Nhomhang : Form
+    public partial class Themnhomhang : Form
     {
-        public Nhomhang()
+        public Themnhomhang()
         {
             InitializeComponent();
-        }
-
-        private void themNhomhangbutton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var f = new Themnhomhang();
-            f.Closed += (s, args) => this.Show();
-            f.Show();
         }
     }
 }

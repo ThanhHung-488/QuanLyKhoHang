@@ -56,11 +56,29 @@
     <Compile Include="Dangnhap.Designer.cs">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Nhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Nhanvien.Designer.cs">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Themnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Themnhanvien.Designer.cs">
+      <DependentUpon>Themnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Themnhomhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Themnhomhang.Designer.cs">
+      <DependentUpon>Themnhomhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trangchu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trangchu.Designer.cs">
+      <DependentUpon>Trangchu.cs</DependentUpon>
     </Compile>
     <Compile Include="Nhomhang.cs">
       <SubType>Form</SubType>
@@ -73,8 +91,17 @@
     <EmbeddedResource Include="Dangnhap.resx">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Nhanvien.resx">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Themnhanvien.resx">
+      <DependentUpon>Themnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Themnhomhang.resx">
+      <DependentUpon>Themnhomhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trangchu.resx">
+      <DependentUpon>Trangchu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nhomhang.resx">
       <DependentUpon>Nhomhang.cs</DependentUpon>
@@ -113,6 +140,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\quanlykho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themloaihang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themnhanvien.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
