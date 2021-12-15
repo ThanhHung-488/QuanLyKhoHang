@@ -24,5 +24,8 @@ namespace WindowsFormsApp1
             f.Closed += (s, args) => this.Show();
             f.Show();
         }
+
+       
+
     }
 }

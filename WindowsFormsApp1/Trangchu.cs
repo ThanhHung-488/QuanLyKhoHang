@@ -32,5 +32,22 @@ namespace WindowsFormsApp1
             f.FormClosed += (s, args) => this.Show();
             f.Show();
         }
+
+        private void quanLyNhapHangToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           this.Hide();
+            var f = new nhaphang();
+            f.FormClosed += (s, args) => this.Show();
+            f.Show();
+
+        }
+
+        private void quanLyXuatHangToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var f = new xuathang();
+            f.FormClosed += (s, args) => this.Show();
+            f.Show();
+        }
     }
 }
