@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Thông tin tài khoản -->
+<Table>
+  <user>
+    <taikhoan>admin</taikhoan>
+    <matkhau>admin</matkhau>
+  </user>
+  <user>
+    <taikhoan>admin1</taikhoan>
+    <matkhau>123</matkhau>
+  </user>
+  <user>
+    <taikhoan>admin2</taikhoan>
+    <matkhau>123</matkhau>
+  </user>
+</Table>

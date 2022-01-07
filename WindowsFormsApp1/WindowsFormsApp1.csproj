@@ -50,60 +50,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dangnhap.cs">
+    <Compile Include="BLL\QLsanphamBLL.cs" />
+    <Compile Include="BLL\tkxml.cs" />
+    <Compile Include="DTO\QLsanphamDTO.cs" />
+    <Compile Include="GUI\Dangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dangnhap.Designer.cs">
+    <Compile Include="GUI\Dangnhap.Designer.cs">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Nhanvien.cs">
+    <Compile Include="GUI\Nhanvien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhanvien.Designer.cs">
+    <Compile Include="GUI\Nhanvien.Designer.cs">
       <DependentUpon>Nhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Themnhanvien.cs">
+    <Compile Include="GUI\Quanlysanpham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Themnhanvien.Designer.cs">
+    <Compile Include="GUI\Quanlysanpham.Designer.cs">
+      <DependentUpon>Quanlysanpham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Themnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Themnhanvien.Designer.cs">
       <DependentUpon>Themnhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Themnhomhang.cs">
+    <Compile Include="GUI\Themnhomhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Themnhomhang.Designer.cs">
+    <Compile Include="GUI\Themnhomhang.Designer.cs">
       <DependentUpon>Themnhomhang.cs</DependentUpon>
     </Compile>
-    <Compile Include="Trangchu.cs">
+    <Compile Include="GUI\Trangchu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Trangchu.Designer.cs">
+    <Compile Include="GUI\Trangchu.Designer.cs">
       <DependentUpon>Trangchu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Nhomhang.cs">
+    <Compile Include="GUI\Nhomhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhomhang.Designer.cs">
+    <Compile Include="GUI\Nhomhang.Designer.cs">
       <DependentUpon>Nhomhang.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Dangnhap.resx">
+    <EmbeddedResource Include="GUI\Dangnhap.resx">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhanvien.resx">
+    <EmbeddedResource Include="GUI\Nhanvien.resx">
       <DependentUpon>Nhanvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Themnhanvien.resx">
+    <EmbeddedResource Include="GUI\Quanlysanpham.resx">
+      <DependentUpon>Quanlysanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Themnhanvien.resx">
       <DependentUpon>Themnhanvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Themnhomhang.resx">
+    <EmbeddedResource Include="GUI\Themnhomhang.resx">
       <DependentUpon>Themnhomhang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Trangchu.resx">
+    <EmbeddedResource Include="GUI\Trangchu.resx">
       <DependentUpon>Trangchu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhomhang.resx">
+    <EmbeddedResource Include="GUI\Nhomhang.resx">
       <DependentUpon>Nhomhang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -147,5 +159,6 @@
   <ItemGroup>
     <None Include="Resources\themnhanvien.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

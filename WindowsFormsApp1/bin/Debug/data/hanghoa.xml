@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Thông tin sản phẩm -->
+<Table>
+  <hanghoa>
+    <masp>sp001</masp>
+    <tensp>Bia Sài Gòn</tensp>
+    <gia>100000</gia>
+    <donvitinh>thùng</donvitinh>
+    <manhomhang>NH001</manhomhang>
+  </hanghoa>
+  <hanghoa>
+    <masp>sp002</masp>
+    <tensp>Coca</tensp>
+    <gia>20000</gia>
+    <donvitinh>thùng</donvitinh>
+    <manhomhang>NH003</manhomhang>
+  </hanghoa>
+  <hanghoa>
+    <masp>sp003</masp>
+    <tensp>Pepsi</tensp>
+    <gia>1000</gia>
+    <donvitinh>thùng</donvitinh>
+    <manhomhang>NH003</manhomhang>
+  </hanghoa>
+  <hanghoa>
+    <masp>sp004</masp>
+    <tensp>Nước lọc</tensp>
+    <gia>40000</gia>
+    <donvitinh>thùng</donvitinh>
+    <manhomhang>NH005</manhomhang>
+  </hanghoa>
+</Table>
